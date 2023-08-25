@@ -15,5 +15,5 @@ Run these commands:
 
 or Run by docker compose
 
-test the application
+test the node-todo application
 
