@@ -22,7 +22,9 @@ pipeline{
 }
         stage('Deploy'){
             steps {
-                sh 'docker-compose down && docker-compose up -d --build web'
+                sh 'docker-compose down'
+                sh 'docker-compose build'
+                sh 'docker-compose up -d'
             }
         }
     }
