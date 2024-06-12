@@ -2,6 +2,6 @@ version: '3.9'
 
 services:
   web:
-    image: "shubhgole/node-app-demo:latest"
+    image: "shubhgole/node-todo-app-cicd:latest"
     ports:
       - "8000:8000"
